@@ -13,14 +13,14 @@ Os dois arquivos se encontram dentro da solução, dentro do projeto "Testes", C
 
 TC001_CreateGoogleAccount - linha 27 - TC0002_ContactCode7 - linha 62
 
-public GoogleAccountJson DeserializeCode7Json()
-{
-	var reader = new StreamReader(@"C:\Users\Felipe\source\repos\TesteCode7\Testes\GoogleAccount.json");
-	var jsonFile = reader.ReadToEnd();
-	var serializer = new JavaScriptSerializer();
+        public GoogleAccountJson DeserializeCode7Json()
+        {
+            var reader = new StreamReader(@"C:\Users\Felipe\source\repos\TesteCode7\Testes\GoogleAccount.json");
+            var jsonFile = reader.ReadToEnd();
+            var serializer = new JavaScriptSerializer();
 
-	return serializer.Deserialize<GoogleAccountJson>(jsonFile);
-}
+            return serializer.Deserialize<GoogleAccountJson>(jsonFile);
+        }
 
 OBS: Para pegar o caminho completo de maneira mais simples, basta clicar com o botão direito no arquivo dentro da solução e clicar em copiar caminho completo.
 Após esta alteração, basta executar os testes.
