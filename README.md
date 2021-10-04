@@ -27,7 +27,12 @@ Após esta alteração, basta executar os testes.
 
 O TC: TC001_CreateGoogleAccount contém uma particularidade, é necessário passar um numero de telefone para que seja enviado um codigo de validação.
 Então é necessário colocar o código hardcoded em tempo de execução, colocar um breakpoint na linha e assim que a mensagem for enviada alterar o valor.
-linha 39: var validateCode = "543290";
+
+linha 39:
+            
+         /*Informe o código de validação!*/
+         var validateCode = "543290";
+
 Em seguida basta dar sequência no TC.
 
 Os demais testes são testes da API, foi usada a API recomendada no teste passado.
