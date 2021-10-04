@@ -8,10 +8,10 @@ Testes : TC001_CreateGoogleAccount e TC0002_ContactCode7
 Estes dois TC's simulam operações de UI, alguns dados são necessários para realizar o teste como email, nome mensagem e etc.
 Estes dados foram parametrizados via JSON, portando, ao baixar a solução é necessário alterar os dados contidos no JSON e o caminho deste na solução.
 Os dois arquivos se encontram dentro da solução, dentro do projeto "Testes", Code7.JSON e GoogleAccount.JSON, para alterar os dados basta abrir e realizar a alteração.
-É necessário dentro destes dois TC'S altera o path do caminho, o método responsável é (DeserializeCode7Json)
 
-TC001_CreateGoogleAccount - linha 27 
-TC0002_ContactCode7 - linha 62
+É necessário dentro destes dois TC'S alterar o path do caminho, o método responsável é (DeserializeCode7Json)
+
+TC001_CreateGoogleAccount - linha 27 - TC0002_ContactCode7 - linha 62
 
 public GoogleAccountJson DeserializeCode7Json()
 {
