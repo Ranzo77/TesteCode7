@@ -10,7 +10,8 @@ Estes dados foram parametrizados via JSON, portando, ao baixar a solução é ne
 Os dois arquivos se encontram dentro da solução, dentro do projeto "Testes", Code7.JSON e GoogleAccount.JSON, para alterar os dados basta abrir e realizar a alteração.
 É necessário dentro destes dois TC'S altera o path do caminho, o método responsável é (DeserializeCode7Json)
 
-TC001_CreateGoogleAccount - linha 27 - TC0002_ContactCode7 - linha 62
+TC001_CreateGoogleAccount - linha 27 
+TC0002_ContactCode7 - linha 62
 
 public GoogleAccountJson DeserializeCode7Json()
 {
